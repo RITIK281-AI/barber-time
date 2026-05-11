@@ -1,0 +1,981 @@
+:root {
+    --trim-orange: #F97316;
+    --trim-orange-dark: #EA580C;
+    --trim-orange-light: #FFF7ED;
+    --trim-orange-border: #FED7AA;
+    --trim-bg: #FFFBF7;
+    --trim-card-bg: #FFFFFF;
+    --trim-text-primary: #1F2937;
+    --trim-text-secondary: #6B7280;
+    --trim-border: #E5E7EB;
+}
+body.trimtime-user-body {
+    min-height: 100vh;
+    background:
+        radial-gradient(1200px 500px at 12% -8%, rgba(249, 115, 22, 0.16), transparent 62%),
+        radial-gradient(900px 420px at 88% -12%, rgba(251, 146, 60, 0.12), transparent 58%),
+        linear-gradient(180deg, #fff9f3 0%, #fffaf5 42%, #fffcf9 100%);
+    color: var(--trim-text-primary);
+}
+
+body.trimtime-user-body main {
+    background: transparent;
+}
+
+.btn-trim {
+    background-color: var(--trim-orange);
+    border-color: var(--trim-orange);
+}
+
+.btn-trim:hover {
+    background-color: var(--trim-orange-dark);
+    border-color: var(--trim-orange-dark);
+}
+
+.text-trim-orange {
+    color: var(--trim-orange) !important;
+}
+
+.bg-trim-orange {
+    background-color: var(--trim-orange) !important;
+}
+
+.hero {
+    background: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.25)),
+                url('https://images.unsplash.com/photo-1511671782779-cb56e135bd67?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    min-height: 85vh;
+    padding-top: 100px;
+}
+
+.shop-card .status-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 0.8rem;
+    padding: 0.4rem 0.85rem;
+}
+
+.service-price {
+    font-weight: 700;
+    color: var(--trim-orange);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* ── Dashboard ────────────────────────────────────────────────── */
+
+.dashboard-wrapper {
+    padding-top: 80px;
+    min-height: 100vh;
+    background: var(--trim-bg);
+}
+
+/* sidebar */
+.profile-sidebar {
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid var(--trim-border);
+    overflow: hidden;
+    position: sticky;
+    top: 88px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.03);
+}
+
+.profile-sidebar-header {
+    background: linear-gradient(135deg, var(--trim-orange) 0%, var(--trim-orange-dark) 100%);
+    padding: 32px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255,255,255,0.6);
+}
+
+.profile-avatar-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    border: 3px solid rgba(255,255,255,0.6);
+    margin: 0 auto 12px;
+}
+
+.loyalty-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    margin-top: 6px;
+}
+
+/* sidebar nav links */
+.sidebar-nav .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    color: var(--trim-text-secondary);
+    border-radius: 0;
+    font-weight: 500;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.sidebar-nav .nav-link:hover {
+    background: var(--trim-bg);
+    color: var(--trim-text-primary);
+    border-left-color: var(--trim-border);
+}
+
+.sidebar-nav .nav-link.active {
+    background: var(--trim-orange-light);
+    color: var(--trim-orange);
+    border-left-color: var(--trim-orange);
+    font-weight: 600;
+}
+
+.sidebar-nav .nav-link i {
+    width: 18px;
+    font-size: 1rem;
+}
+
+/* dashboard panel */
+.dashboard-panel {
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid var(--trim-border);
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+}
+
+.panel-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--trim-text-primary);
+    margin-bottom: 4px;
+}
+
+.panel-subtitle {
+    font-size: 0.9rem;
+    color: var(--trim-text-secondary);
+    margin-bottom: 24px;
+}
+
+/* stat cards */
+.stat-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.stat-icon.orange { background: var(--trim-orange-light); color: var(--trim-orange); }
+.stat-icon.green  { background: #edfbf1; color: #2d9c59; }
+.stat-icon.blue   { background: #eef4ff; color: #3b7ef8; }
+.stat-icon.red    { background: #fff0f0; color: #e03131; }
+
+/* orange button */
+.btn-trim-orange {
+    background: var(--trim-orange);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: #fff !important;
+    background-color: #0d6efd !important;
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:focus {
+    color: #fff !important;
+    background-color: #dc3545 !important;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+    color: #fff !important;
+    background-color: #6c757d !important;
+}
+/* form focus ring */
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--trim-orange);
+    box-shadow: 0 0 0 3px rgba(255,107,0,0.12);
+}
+
+/* toggle switch orange */
+.form-check-input:checked {
+    background-color: var(--trim-orange);
+    border-color: var(--trim-orange);
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .profile-sidebar {
+        position: static;
+        margin-bottom: 20px;
+    }
+    .dashboard-panel {
+        padding: 20px;
+    }
+}
+/* upcoming appointment cards */
+.upcoming-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 18px;
+    height: 100%;
+    transition: box-shadow 0.2s;
+    border-left: 4px solid var(--trim-orange);
+}
+
+.upcoming-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.upcoming-detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+    font-size: 0.88rem;
+    margin-bottom: 6px;
+}
+
+.upcoming-detail i {
+    color: var(--trim-orange);
+    width: 16px;
+}
+/* ── NAVBAR ───────────────────────────────────────────────────────── */
+
+.trimtime-nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    padding: 1.2rem 0;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.trimtime-nav.scrolled {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 0.7rem 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid transparent;
+}
+
+.trimtime-brand {
+    font-weight: 800;
+    font-size: 1.7rem;
+    color: var(--trim-orange) !important;
+    text-decoration: none;
+    letter-spacing: -0.8px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.trimtime-brand:hover {
+    transform: translateY(-1px);
+    color: var(--trim-orange-dark) !important;
+}
+
+.trimtime-brand-logo {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+}
+
+.trimtime-brand-text {
+    color: var(--trim-orange);
+}
+
+/* nav link base */
+.trimtime-link {
+    position: relative;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--trim-orange) !important;
+    padding: 0.5rem 1.2rem !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* underline drawn from center using pseudo element */
+.trimtime-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 24px;
+    height: 3px;
+    background: var(--trim-orange);
+    border-radius: 4px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* hover */
+.trimtime-link:hover {
+    color: var(--trim-orange-dark) !important;
+    background: rgba(249, 115, 22, 0.12);
+    border-radius: 999px;
+    transform: translateY(-1px);
+}
+
+.trimtime-link:hover::after {
+    transform: translateX(-50%) scaleX(1);
+    width: 70%;
+    background: var(--trim-orange-dark);
+}
+
+/* active */
+.trimtime-link.tt-active {
+    color: var(--trim-orange-dark) !important;
+    font-weight: 700;
+    background: rgba(249, 115, 22, 0.16);
+    border-radius: 999px;
+}
+
+.trimtime-link.tt-active::after {
+    transform: translateX(-50%) scaleX(1);
+    width: 70%;
+    background: var(--trim-orange-dark);
+}
+
+/* user avatar circle */
+.tt-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--trim-orange-light);
+    color: var(--trim-orange);
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid var(--trim-orange-border);
+}
+
+/* user button */
+.tt-user-btn {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 50px;
+    padding: 4px 18px 4px 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--trim-text-primary);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.tt-user-btn:hover {
+    border-color: rgba(249, 115, 22, 0.3);
+    background: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(249, 115, 22, 0.12);
+}
+
+/* dropdown */
+.tt-dropdown {
+    border: 1px solid var(--trim-border);
+    border-radius: 14px;
+    min-width: 220px;
+    padding: 8px 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transform-origin: top right;
+}
+
+.tt-dropdown .dropdown-item {
+    font-size: 0.9rem;
+    padding: 10px 18px;
+    color: var(--trim-text-secondary);
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.tt-dropdown .dropdown-item:hover {
+    background: var(--trim-bg);
+    color: var(--trim-orange);
+    padding-left: 24px;
+}
+
+/* navbar buttons */
+.tt-btn-ghost {
+    background: transparent;
+    border: 1px solid var(--trim-border);
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--trim-text-primary);
+    padding: 8px 18px;
+    transition: all 0.2s ease;
+}
+
+.tt-btn-ghost:hover {
+    border-color: var(--trim-text-primary);
+    background: var(--trim-bg);
+}
+
+.tt-btn-primary {
+    background-color: var(--trim-orange);
+    border: 1px solid var(--trim-orange);
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 22px;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.2);
+}
+
+.tt-btn-primary:hover {
+    background-color: var(--trim-orange-dark);
+    border-color: var(--trim-orange-dark);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(249, 115, 22, 0.3);
+}
+
+/* white ghost button for dark backgrounds */
+.tt-btn-ghost-white {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 24px;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(4px);
+}
+
+.tt-btn-ghost-white:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border-color: #fff;
+    transform: translateY(-2px);
+}
+
+/* shadow on scroll via JS */
+.trimtime-nav.scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ── HERO ─────────────────────────────────────────────────────────── */
+
+.tt-hero {
+    min-height: 88vh;
+    padding-top: 100px;
+}
+
+.tt-hero-overlay {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.62), rgba(0,0,0,0.45));
+}
+
+.tt-hero-badge {
+    background: rgba(255, 107, 0, 0.2);
+    border: 1px solid rgba(255, 107, 0, 0.5);
+    color: #ffb380;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: 50px;
+}
+
+.tt-search-bar {
+    background: #fff;
+    border-radius: 12px;
+    padding: 6px 6px 6px 4px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.tt-search-bar:hover {
+    box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+}
+
+.tt-search-btn {
+    background: var(--trim-orange);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 10px 24px;
+    border-radius: 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* ── HOW IT WORKS ─────────────────────────────────────────────────── */
+
+.tt-step-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--trim-orange);
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 16px rgba(255, 107, 0, 0.35);
+}
+
+/* ── FEATURE CARDS ────────────────────────────────────────────────── */
+
+.tt-feature-card {
+    border-radius: 14px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.tt-feature-card:hover {
+    box-shadow: 0 8px 32px rgba(255, 107, 0, 0.12);
+    transform: translateY(-4px);
+}
+
+.tt-feature-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: var(--trim-orange-light);
+    color: var(--trim-orange);
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* ── SHOP CARDS ───────────────────────────────────────────────────── */
+
+.tt-shop-card {
+    border-radius: 14px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    overflow: hidden;
+    transition: box-shadow 0.25s, transform 0.25s;
+    display: flex;
+    flex-direction: column;
+}
+
+.tt-shop-card:hover {
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+    transform: translateY(-3px);
+}
+
+.tt-shop-img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.tt-shop-img-placeholder {
+    width: 100%;
+    height: 175px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #ccc;
+}
+
+/* ── SERVICE CARDS ────────────────────────────────────────────────── */
+
+.tt-service-card {
+    border-radius: 14px;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.tt-service-card:hover {
+    box-shadow: 0 6px 24px rgba(255, 107, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.tt-service-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--trim-orange-light);
+    color: var(--trim-orange);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* ── CTA SECTION ──────────────────────────────────────────────────── */
+
+.tt-cta-section {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+/* ── FOOTER ───────────────────────────────────────────────────────── */
+
+.tt-footer {
+    background: #111;
+    color: #aaa;
+}
+
+.trimtime-brand {
+    color: var(--trim-orange) !important;
+}
+
+.tt-footer-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.tt-footer-links {
+    margin: 0;
+    padding: 0;
+}
+
+.tt-footer-links li {
+    margin-bottom: 8px;
+}
+
+.tt-footer-links a {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.88rem;
+    transition: color 0.2s;
+}
+
+.tt-footer-links a:hover {
+    color: var(--trim-orange);
+}
+
+.tt-social-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: #222;
+    color: #888;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.tt-social-icon:hover {
+    background: var(--trim-orange);
+    color: #fff;
+}
+
+.tt-footer-contact {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.tt-footer-contact i {
+    color: var(--trim-orange);
+    width: 16px;
+}
+
+.tt-footer-bottom {
+    border-top: 1px solid #222;
+    color: #555;
+}
+.tt-contact-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: var(--trim-orange-light);
+    color: var(--trim-orange);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* ── Book Again / Urgency / Recommended ──────────────────────── */
+
+.urgency-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.urgency-badge.today {
+    background: #fff0f0;
+    color: #e03131;
+    border: 1px solid #fcc;
+}
+
+.urgency-badge.tomorrow {
+    background: #fff8ee;
+    color: #e07b00;
+    border: 1px solid #fde8c0;
+}
+
+.urgency-badge.soon {
+    background: #eef4ff;
+    color: #3b7ef8;
+    border: 1px solid #c5d9fd;
+}
+
+.book-again-btn {
+    background: var(--trim-orange-light);
+    color: var(--trim-orange);
+    border: 1px solid var(--trim-orange-border);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.book-again-btn:hover {
+    background: var(--trim-orange);
+    color: #fff;
+}
+
+.loyalty-panel {
+    background: linear-gradient(135deg, #fff8f4 0%, #fff2e8 100%);
+    border: 1px solid var(--trim-orange-border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.loyalty-panel-points {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--trim-orange);
+    line-height: 1;
+}
+
+.loyalty-panel-label {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 2px;
+}
+
+.loyalty-progress-bar {
+    height: 8px;
+    background: var(--trim-orange-border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 8px;
+    width: 180px;
+}
+
+.loyalty-progress-fill {
+    height: 100%;
+    background: var(--trim-orange);
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+.recommended-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.2s, transform 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+    transform: translateY(-2px);
+}
+
+.recommended-card-img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.recommended-card-img-placeholder {
+    width: 100%;
+    height: 100px;
+    background: var(--trim-orange-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--trim-orange);
+}
+
+.recommended-card-body {
+    padding: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.history-book-again {
+    font-size: 0.78rem;
+    padding: 4px 10px;
+    white-space: nowrap;
+}
+.featured-shops-wrapper {
+    position: relative;
+}
+
+.featured-shops-scroll {
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 48px 14px;
+    scrollbar-width: none;
+}
+
+.featured-shops-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.featured-shop-item {
+    min-width: 320px;
+    max-width: 320px;
+    flex: 0 0 320px;
+}
+
+.tt-shop-card {
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+    background: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.04);
+}
+
+.tt-shop-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.tt-shop-img,
+.tt-shop-img-placeholder {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.tt-shop-img-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    color: #c8c8c8;
+    font-size: 60px;
+}
+
+.featured-scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    color: #ff7300;
+    font-size: 20px;
+    z-index: 5;
+    transition: all 0.25s ease;
+}
+
+.featured-scroll-btn:hover {
+    background: #ff7300;
+    color: #fff;
+}
+
+.featured-scroll-btn.left {
+    left: 0;
+}
+
+.featured-scroll-btn.right {
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    .featured-shop-item {
+        min-width: 280px;
+        max-width: 280px;
+        flex: 0 0 280px;
+    }
+
+    .tt-shop-img,
+    .tt-shop-img-placeholder {
+        height: 190px;
+    }
+
+    .featured-shops-scroll {
+        padding: 10px 36px 14px;
+    }
+
+    .featured-scroll-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 16px;
+    }
+}
+/* ── SCROLL SHADOW JS HELPER ──────────────────────────────────────── */
+/* add this tiny script to your layout's @stack('scripts') or inline */
