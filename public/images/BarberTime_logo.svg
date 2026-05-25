@@ -1,104 +1,57 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .shop-bg { fill: #2563EB; }
-      .shop-white { fill: #FFFFFF; }
-      .shop-dark { fill: #1E40AF; }
+      .barber-bg { fill: #000000; }
+      .barber-white { fill: #FFFFFF; }
+      .barber-black { fill: #000000; }
     </style>
   </defs>
   
-  <!-- Background -->
-  <rect width="512" height="512" class="shop-bg"/>
+  <!-- Outer Circle Background -->
+  <circle cx="100" cy="100" r="95" class="barber-bg"/>
   
-  <!-- Barber Shop Building -->
+  <!-- Head Profile Group -->
   <g>
-    <!-- Building Main Structure -->
-    <rect x="120" y="150" width="272" height="280" class="shop-white" stroke="#1E40AF" stroke-width="4"/>
+    <!-- Main head shape - white profile -->
+    <path d="M 70 60 L 70 110 Q 70 130 85 140 L 115 140 Q 130 130 130 110 L 130 60 Q 130 45 115 40 L 85 40 Q 70 45 70 60 Z" class="barber-white"/>
     
-    <!-- Roof/Awning -->
-    <polygon points="120,150 256,80 392,150" class="shop-dark"/>
+    <!-- Spiky Hair/Quiff - Multiple spikes -->
+    <path d="M 80 35 Q 75 20 85 10 Q 95 5 105 10 Q 115 20 110 35" class="barber-white"/>
     
-    <!-- Door -->
-    <rect x="200" y="320" width="112" height="110" class="shop-dark"/>
-    <circle cx="300" cy="375" r="6" class="shop-white"/>
+    <!-- Hair spikes detail -->
+    <path d="M 85 10 L 82 -5" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 100 5 L 100 -10" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 115 10 L 118 -5" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 110 25 L 125 15" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
     
-    <!-- Door Handle -->
-    <line x1="305" y1="375" x2="310" y2="375" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <!-- Ear -->
+    <ellipse cx="60" cy="80" rx="8" ry="15" class="barber-white"/>
+    <ellipse cx="63" cy="80" rx="4" ry="10" class="barber-black"/>
     
-    <!-- Window 1 (Top Left) -->
-    <rect x="150" y="190" width="60" height="60" class="shop-dark"/>
-    <line x1="180" y1="190" x2="180" y2="250" stroke="#2563EB" stroke-width="2"/>
-    <line x1="150" y1="220" x2="210" y2="220" stroke="#2563EB" stroke-width="2"/>
+    <!-- Eye -->
+    <circle cx="80" cy="70" r="4" class="barber-white"/>
+    <circle cx="80" cy="70" r="2" class="barber-black"/>
     
-    <!-- Window 2 (Top Right) -->
-    <rect x="302" y="190" width="60" height="60" class="shop-dark"/>
-    <line x1="332" y1="190" x2="332" y2="250" stroke="#2563EB" stroke-width="2"/>
-    <line x1="302" y1="220" x2="362" y2="220" stroke="#2563EB" stroke-width="2"/>
+    <!-- Nose -->
+    <path d="M 95 75 L 95 95" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
     
-    <!-- Window 3 (Middle Left) -->
-    <rect x="150" y="270" width="60" height="40" class="shop-dark"/>
-    <line x1="180" y1="270" x2="180" y2="310" stroke="#2563EB" stroke-width="2"/>
-    <line x1="150" y1="290" x2="210" y2="290" stroke="#2563EB" stroke-width="2"/>
+    <!-- Mouth/Lips -->
+    <path d="M 85 100 Q 95 105 105 100" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
     
-    <!-- Window 4 (Middle Right) -->
-    <rect x="302" y="270" width="60" height="40" class="shop-dark"/>
-    <line x1="332" y1="270" x2="332" y2="310" stroke="#2563EB" stroke-width="2"/>
-    <line x1="302" y1="290" x2="362" y2="290" stroke="#2563EB" stroke-width="2"/>
+    <!-- Beard - Full thick beard -->
+    <path d="M 80 105 Q 100 125 120 105" class="barber-white"/>
+    <path d="M 82 110 Q 100 130 118 110" class="barber-white"/>
     
-    <!-- Barber Pole (Left side) -->
-    <g>
-      <!-- Pole base -->
-      <rect x="100" y="140" width="12" height="260" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
-      
-      <!-- Red stripe (barber pole) -->
-      <ellipse cx="106" cy="145" rx="8" ry="4" fill="#DC2626"/>
-      <path d="M 98 155 Q 106 160 114 155" fill="#DC2626"/>
-      <path d="M 98 175 Q 106 180 114 175" fill="#DC2626"/>
-      <path d="M 98 195 Q 106 200 114 195" fill="#DC2626"/>
-      <path d="M 98 215 Q 106 220 114 215" fill="#DC2626"/>
-      <path d="M 98 235 Q 106 240 114 235" fill="#DC2626"/>
-      <path d="M 98 255 Q 106 260 114 255" fill="#DC2626"/>
-      <path d="M 98 275 Q 106 280 114 275" fill="#DC2626"/>
-      <path d="M 98 295 Q 106 300 114 295" fill="#DC2626"/>
-      <path d="M 98 315 Q 106 320 114 315" fill="#DC2626"/>
-      <path d="M 98 335 Q 106 340 114 335" fill="#DC2626"/>
-      <path d="M 98 355 Q 106 360 114 355" fill="#DC2626"/>
-      
-      <!-- Pole top -->
-      <circle cx="106" cy="135" r="10" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
-    </g>
+    <!-- Beard texture lines -->
+    <line x1="88" y1="107" x2="88" y2="120" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="95" y1="110" x2="95" y2="125" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="102" y1="110" x2="102" y2="125" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="109" y1="110" x2="109" y2="120" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
     
-    <!-- Barber Pole (Right side) -->
-    <g>
-      <!-- Pole base -->
-      <rect x="400" y="140" width="12" height="260" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
-      
-      <!-- Red stripe (barber pole) -->
-      <ellipse cx="406" cy="145" rx="8" ry="4" fill="#DC2626"/>
-      <path d="M 398 155 Q 406 160 414 155" fill="#DC2626"/>
-      <path d="M 398 175 Q 406 180 414 175" fill="#DC2626"/>
-      <path d="M 398 195 Q 406 200 414 195" fill="#DC2626"/>
-      <path d="M 398 215 Q 406 220 414 215" fill="#DC2626"/>
-      <path d="M 398 235 Q 406 240 414 235" fill="#DC2626"/>
-      <path d="M 398 255 Q 406 260 414 255" fill="#DC2626"/>
-      <path d="M 398 275 Q 406 280 414 275" fill="#DC2626"/>
-      <path d="M 398 295 Q 406 300 414 295" fill="#DC2626"/>
-      <path d="M 398 315 Q 406 320 414 315" fill="#DC2626"/>
-      <path d="M 398 335 Q 406 340 414 335" fill="#DC2626"/>
-      <path d="M 398 355 Q 406 360 414 355" fill="#DC2626"/>
-      
-      <!-- Pole top -->
-      <circle cx="406" cy="135" r="10" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
-    </g>
-    
-    <!-- Scissors Icon (Center) -->
-    <g transform="translate(256, 220)">
-      <!-- Left blade -->
-      <path d="M -20 -15 Q -25 -10 -20 5 Q -15 10 -10 5 Q -15 -10 -20 -15" class="shop-dark" stroke="#FFFFFF" stroke-width="1.5"/>
-      <!-- Right blade -->
-      <path d="M 20 -15 Q 25 -10 20 5 Q 15 10 10 5 Q 15 -10 20 -15" class="shop-dark" stroke="#FFFFFF" stroke-width="1.5"/>
-      <!-- Handle connection -->
-      <line x1="-10" y1="5" x2="10" y2="5" stroke="#FFFFFF" stroke-width="2"/>
-    </g>
+    <!-- Neck -->
+    <rect x="88" y="140" width="14" height="12" class="barber-white"/>
   </g>
+  
+  <!-- Outer Circle Border -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
 </svg>
