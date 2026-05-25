@@ -4,7 +4,6 @@
         <!-- brand -->
         <a class="navbar-brand trimtime-brand" href="{{ route('home') }}">
             <img src="{{ asset('images/BarberTime_logo.png') }}" class="trimtime-brand-logo" alt="BarberTime">
-            <span class="trimtime-brand-text">BarberTime</span>
         </a>
 
         <button class="navbar-toggler border-0 shadow-none" type="button"

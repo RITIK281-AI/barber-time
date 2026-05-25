@@ -278,8 +278,8 @@ body.trimtime-user-body main {
 
 .trimtime-nav {
     border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-    padding: 1.2rem 0;
-    background-color: rgba(255, 255, 255, 0.85);
+    padding: 0.8rem 0;
+    background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -287,8 +287,8 @@ body.trimtime-user-body main {
 
 .trimtime-nav.scrolled {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-    padding: 0.7rem 0;
-    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0.6rem 0;
+    background-color: rgba(255, 255, 255, 0.98);
     border-bottom: 1px solid transparent;
 }
 
@@ -322,10 +322,10 @@ body.trimtime-user-body main {
 /* nav link base */
 .trimtime-link {
     position: relative;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    color: var(--trim-blue) !important;
-    padding: 0.5rem 1.2rem !important;
+    color: var(--trim-text-primary) !important;
+    padding: 0.5rem 1rem !important;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -337,38 +337,32 @@ body.trimtime-user-body main {
     left: 50%;
     transform: translateX(-50%) scaleX(0);
     width: 24px;
-    height: 3px;
+    height: 2px;
     background: var(--trim-blue);
-    border-radius: 4px;
+    border-radius: 2px;
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hover */
 .trimtime-link:hover {
-    color: var(--trim-blue-dark) !important;
-    background: rgba(37, 99, 235, 0.12);
-    border-radius: 999px;
+    color: var(--trim-blue) !important;
     transform: translateY(-1px);
 }
 
 .trimtime-link:hover::after {
     transform: translateX(-50%) scaleX(1);
-    width: 70%;
-    background: var(--trim-blue-dark);
+    width: 60%;
 }
 
 /* active */
 .trimtime-link.tt-active {
-    color: var(--trim-blue-dark) !important;
+    color: var(--trim-blue) !important;
     font-weight: 700;
-    background: rgba(37, 99, 235, 0.16);
-    border-radius: 999px;
 }
 
 .trimtime-link.tt-active::after {
     transform: translateX(-50%) scaleX(1);
-    width: 70%;
-    background: var(--trim-blue-dark);
+    width: 60%;
 }
 
 /* user avatar circle */
@@ -435,37 +429,38 @@ body.trimtime-user-body main {
 .tt-btn-ghost {
     background: transparent;
     border: 1px solid var(--trim-border);
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 0.9rem;
     font-weight: 600;
     color: var(--trim-text-primary);
-    padding: 8px 18px;
+    padding: 8px 16px;
     transition: all 0.2s ease;
 }
 
 .tt-btn-ghost:hover {
-    border-color: var(--trim-text-primary);
-    background: var(--trim-bg);
+    border-color: var(--trim-blue);
+    background: rgba(37, 99, 235, 0.05);
+    color: var(--trim-blue);
 }
 
 .tt-btn-primary {
     background-color: var(--trim-blue);
     border: 1px solid var(--trim-blue);
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 0.9rem;
     font-weight: 600;
     color: #fff;
-    padding: 8px 22px;
+    padding: 8px 20px;
     transition: all 0.25s ease;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
 }
 
 .tt-btn-primary:hover {
     background-color: var(--trim-blue-dark);
     border-color: var(--trim-blue-dark);
     color: #fff;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
 /* white ghost button for dark backgrounds */
