@@ -1,55 +1,59 @@
 <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .barber-circle { fill: #000000; }
+      .barber-bg { fill: #000000; }
       .barber-white { fill: #FFFFFF; }
-      .barber-stroke { stroke: #FFFFFF; stroke-width: 8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .barber-black { fill: #000000; }
     </style>
   </defs>
   
   <!-- Outer Circle Background -->
-  <circle cx="256" cy="256" r="250" class="barber-circle"/>
+  <circle cx="256" cy="256" r="250" class="barber-bg"/>
   
   <!-- Head Profile Group -->
   <g>
-    <!-- Face Shape -->
-    <path d="M 220 140 Q 200 160 200 200 Q 200 260 240 300 L 300 300 Q 340 260 340 200 Q 340 160 320 140 Z" class="barber-white"/>
+    <!-- Main head shape - white profile -->
+    <path d="M 200 180 L 200 280 Q 200 320 240 340 L 280 340 Q 320 320 320 280 L 320 180 Q 320 140 280 120 L 240 120 Q 200 140 200 180 Z" class="barber-white"/>
     
-    <!-- Spiky Hair/Quiff -->
-    <path d="M 220 130 Q 210 90 240 70 Q 260 55 280 60 Q 300 55 320 70 Q 350 90 340 130" class="barber-white"/>
+    <!-- Spiky Hair/Quiff - Multiple spikes -->
+    <path d="M 220 110 Q 210 70 240 50 Q 260 40 280 50 Q 310 70 300 110" class="barber-white"/>
     
-    <!-- Hair Spikes Detail -->
-    <path d="M 240 70 L 235 35" class="barber-stroke"/>
-    <path d="M 270 55 L 270 20" class="barber-stroke"/>
-    <path d="M 300 70 L 305 35" class="barber-stroke"/>
-    
-    <!-- Beard -->
-    <path d="M 240 270 Q 270 300 300 270" class="barber-white"/>
-    <path d="M 245 280 Q 270 310 295 280" class="barber-white"/>
-    
-    <!-- Beard Detail Lines -->
-    <line x1="250" y1="275" x2="250" y2="295" class="barber-stroke"/>
-    <line x1="270" y1="280" x2="270" y2="305" class="barber-stroke"/>
-    <line x1="290" y1="275" x2="290" y2="295" class="barber-stroke"/>
+    <!-- Hair spikes detail -->
+    <path d="M 240 50 L 235 20" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 260 35 L 260 5" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 280 50 L 285 20" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 300 80 L 320 50" stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round"/>
     
     <!-- Ear -->
-    <ellipse cx="175" cy="210" rx="22" ry="35" class="barber-white"/>
-    <ellipse cx="180" cy="210" rx="12" ry="20" fill="#000000"/>
+    <ellipse cx="170" cy="220" rx="20" ry="40" class="barber-white"/>
+    <ellipse cx="175" cy="220" rx="10" ry="25" class="barber-black"/>
     
     <!-- Eye -->
-    <circle cx="240" cy="190" r="8" class="barber-white"/>
-    <circle cx="240" cy="190" r="4" fill="#000000"/>
+    <circle cx="235" cy="200" r="10" class="barber-white"/>
+    <circle cx="235" cy="200" r="5" class="barber-black"/>
     
     <!-- Nose -->
-    <path d="M 270 200 L 270 240" class="barber-stroke"/>
+    <path d="M 260 210 L 260 260" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/>
     
-    <!-- Mouth/Chin -->
-    <path d="M 250 260 Q 270 270 290 260" class="barber-stroke"/>
+    <!-- Mouth/Lips -->
+    <path d="M 240 270 Q 260 280 280 270" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <!-- Beard - Full thick beard -->
+    <path d="M 220 280 Q 260 320 300 280" class="barber-white"/>
+    <path d="M 225 290 Q 260 330 295 290" class="barber-white"/>
+    
+    <!-- Beard texture lines -->
+    <line x1="240" y1="285" x2="240" y2="310" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+    <line x1="260" y1="290" x2="260" y2="320" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+    <line x1="280" y1="285" x2="280" y2="310" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Neck -->
+    <rect x="240" y="340" width="40" height="30" class="barber-white"/>
   </g>
   
   <!-- Outer Circle Border -->
-  <circle cx="256" cy="256" r="250" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+  <circle cx="256" cy="256" r="250" fill="none" stroke="#FFFFFF" stroke-width="8"/>
   
-  <!-- Inner Decorative Circle -->
-  <circle cx="256" cy="256" r="235" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <!-- Inner decorative circle -->
+  <circle cx="256" cy="256" r="235" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3"/>
 </svg>
