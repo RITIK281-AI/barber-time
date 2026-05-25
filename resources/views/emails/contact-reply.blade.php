@@ -14,16 +14,16 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✂ TrimTime</h1>
+            <h1>✂ BarberTime</h1>
         </div>
         <div class="body">
             <p>Hi {{ $name }},</p>
             <p>Thank you for reaching out to us. We have received your message and will get back to you within <strong>24 hours</strong>.</p>
             <p>If your query is urgent, you can also reach us directly at <a href="tel:9762752410" style="color:#ff6b00;">9762752410</a>.</p>
-            <p>Best regards,<br><strong>The TrimTime Team</strong></p>
+            <p>Best regards,<br><strong>The BarberTime Team</strong></p>
         </div>
         <div class="footer">
-            © {{ date('Y') }} TrimTime — Pokhara, Nepal
+            © {{ date('Y') }} BarberTime — Pokhara, Nepal
         </div>
     </div>
 </body>

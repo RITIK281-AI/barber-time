@@ -9,7 +9,7 @@
 
             <h2 class="auth-heading">Set New Password</h2>
             <p class="auth-subheading">
-                Choose a strong password for your TrimTime account.
+                Choose a strong password for your BarberTime account.
             </p>
 
             <form method="POST" action="{{ route('password.store') }}" novalidate>

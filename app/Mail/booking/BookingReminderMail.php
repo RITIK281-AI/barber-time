@@ -18,7 +18,7 @@ class BookingReminderMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: '⏰ Reminder: Your Appointment in 30 Minutes - TrimTime',
+            subject: '⏰ Reminder: Your Appointment in 30 Minutes - BarberTime',
         );
     }
 

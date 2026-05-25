@@ -14,7 +14,7 @@
                 <line x1="8.12" y1="8.12" x2="12" y2="12"/>
             </svg>
         </div>
-        <div class="auth-brand-name">TrimTime</div>
+        <div class="auth-brand-name">BarberTime</div>
         <div class="auth-brand-tag">Premium Barber Booking Platform</div>
         <ul class="auth-features">
             <li><span class="auth-feat-dot"></span> Book top-rated barbers in Nepal</li>

@@ -18,7 +18,7 @@ class BookingNotificationMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'New Booking Request - TrimTime',
+            subject: 'New Booking Request - BarberTime',
         );
     }
 

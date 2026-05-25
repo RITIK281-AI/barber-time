@@ -2,7 +2,7 @@
 
 <p>Hello Admin,</p>
 
-<p>A new barber shop has requested to become a TrimTime partner:</p>
+<p>A new barber shop has requested to become a BarberTime partner:</p>
 
 <table style="border-collapse: collapse; width: 100%; max-width: 500px;">
     <tr>
@@ -37,4 +37,4 @@
 
 <p style="margin-top: 20px;">Please log in to the admin panel to review this request.</p>
 
-<p>— TrimTime System</p>
+<p>— BarberTime System</p>

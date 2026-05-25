@@ -10,7 +10,7 @@
     <div class="container py-4">
         <span class="badge bg-trim-blue text-white px-3 py-2 mt-5 mb-3 fs-6">Simple Process</span>
         <h1 class="display-4 fw-bold text-white mb-3">
-            How <span class="text-trim-blue">TrimTime</span> Works
+            How <span class="text-trim-blue">BarberTime</span> Works
         </h1>
         <p class="lead text-white-50 mx-auto" style="max-width: 560px;">
             From finding your barber to showing up fresh — it takes less than 60 seconds to book.
@@ -65,7 +65,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="fw-bold display-6">For <span class="text-trim-blue">Customers</span></h2>
-            <p class="text-muted">Everything you get as a TrimTime customer</p>
+            <p class="text-muted">Everything you get as a BarberTime customer</p>
         </div>
         <div class="row g-4">
             @foreach([
@@ -95,7 +95,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="fw-bold display-6">For <span class="text-trim-blue">Barber Shops</span></h2>
-            <p class="text-muted">Grow your business with TrimTime's management tools</p>
+            <p class="text-muted">Grow your business with BarberTime's management tools</p>
         </div>
         <div class="row g-4">
             @foreach([
@@ -104,7 +104,7 @@
                 ['bi-calendar2-week',  'Schedule Control',       'Set time slots, working hours, and prevent double bookings automatically.'],
                 ['bi-graph-up-arrow',  'Analytics & Reports',    'See booking trends, revenue reports, and customer feedback at a glance.'],
                 ['bi-chat-dots-fill',  'Customer Insights',      'Read reviews and track ratings to understand what your customers love.'],
-                ['bi-check-circle',    'Approval Workflow',      'Get listed on TrimTime after a quick admin review. Fast and simple onboarding.'],
+                ['bi-check-circle',    'Approval Workflow',      'Get listed on BarberTime after a quick admin review. Fast and simple onboarding.'],
             ] as [$icon, $title, $desc])
             <div class="col-md-4">
                 <div class="tt-feature-card h-100 p-4">
@@ -125,7 +125,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="fw-bold display-6">Frequently Asked <span class="text-trim-blue">Questions</span></h2>
-            <p class="text-muted">Everything you need to know about TrimTime</p>
+            <p class="text-muted">Everything you need to know about BarberTime</p>
         </div>
 
         {{-- Booking Section --}}
@@ -402,7 +402,7 @@
                             <strong>Reach us via:</strong>
                             <ul class="mt-2 mb-0">
                                 <li>📧 Email: trimtime66@gmail.com</li>
-                                <li>📱 WhatsApp: <a href="https://wa.me/977?text=Hello%20TrimTime" target="_blank" class="text-trim-blue">Message us</a></li>
+                                <li>📱 WhatsApp: <a href="https://wa.me/977?text=Hello%20BarberTime" target="_blank" class="text-trim-blue">Message us</a></li>
                                 <li>📞 Phone: +977 61 123456</li>
                                 <li>🕒 Hours: Sun – Fri: 9 AM – 6 PM (Saturday Closed)</li>
                             </ul>
@@ -448,7 +448,7 @@
 <section class="tt-cta-section py-5 text-center">
     <div class="container py-3">
         <h2 class="display-5 fw-bold text-white mb-3">Ready to Book Your Next Cut?</h2>
-        <p class="lead text-white-50 mb-5">Join TrimTime and find your perfect barber in seconds.</p>
+        <p class="lead text-white-50 mb-5">Join BarberTime and find your perfect barber in seconds.</p>
         <div class="d-flex gap-3 justify-content-center flex-wrap">
             <a href="{{ route('frontend.shops.index') }}" class="btn tt-btn-primary btn-lg px-5">
                 Find a Barber

@@ -49,7 +49,7 @@ class OtpPasswordController extends Controller
         // Send OTP email
         Mail::send('emails.otp', ['otp' => $otp], function ($mail) use ($request) {
             $mail->to($request->email)
-                 ->subject('TrimTime — Your Password Reset OTP');
+                 ->subject('BarberTime — Your Password Reset OTP');
         });
 
         // Store email in session for next steps

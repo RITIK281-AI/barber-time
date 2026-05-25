@@ -7,7 +7,7 @@
 <body style="font-family: Arial, sans-serif; background:#f6f6f6; margin:0; padding:24px;">
     <div style="max-width:620px; margin:0 auto; background:#ffffff; border:1px solid #ececec; border-radius:10px; overflow:hidden;">
         <div style="background:#222; color:#fff; padding:16px 20px; font-size:20px; font-weight:700;">
-            TrimTime Barber Notice
+            BarberTime Barber Notice
         </div>
         <div style="padding:20px; color:#222;">
             <p style="margin-top:0;">Hi {{ $booking->barber?->name ?? 'Barber' }},</p>

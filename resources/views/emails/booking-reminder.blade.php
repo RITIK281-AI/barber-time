@@ -20,7 +20,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✂️ TrimTime</h1>
+            <h1>✂️ BarberTime</h1>
             <p>Appointment Reminder</p>
         </div>
         <div class="body">
@@ -75,7 +75,7 @@
             <a href="{{ url('/dashboard?tab=bookings') }}" class="btn">View My Booking</a>
         </div>
         <div class="footer">
-            &copy; {{ date('Y') }} TrimTime &mdash; Barber Booking System, Nepal<br>
+            &copy; {{ date('Y') }} BarberTime &mdash; Barber Booking System, Nepal<br>
             <small>You received this because you have an upcoming appointment.</small>
         </div>
     </div>

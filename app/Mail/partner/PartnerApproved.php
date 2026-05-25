@@ -27,7 +27,7 @@ class PartnerApproved extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Welcome to TrimTime: ' . $this->barberShop->name,
+            subject: 'Welcome to BarberTime: ' . $this->barberShop->name,
         );
     }
 

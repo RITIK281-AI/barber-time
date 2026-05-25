@@ -18,7 +18,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✂ TrimTime — New Contact Message</h1>
+            <h1>✂ BarberTime — New Contact Message</h1>
         </div>
         <div class="body">
             <div class="field">
@@ -38,7 +38,7 @@
             </p>
         </div>
         <div class="footer">
-            TrimTime Admin Notification — Do not reply to this email
+            BarberTime Admin Notification — Do not reply to this email
         </div>
     </div>
 </body>

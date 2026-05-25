@@ -103,7 +103,7 @@
 {{-- ── WHY TRIMTIME ──────────────────────────────────────────────── --}}
 <section class="py-5 bg-white">
     <div class="container text-center">
-        <h2 class="display-5 fw-bold mb-2">Why Choose <span class="text-trim-blue">TrimTime</span>?</h2>
+        <h2 class="display-5 fw-bold mb-2">Why Choose <span class="text-trim-blue">BarberTime</span>?</h2>
         <p class="lead text-muted mb-5">Connecting you with trusted local barbers — fast, reliable, and built for Nepal.</p>
 
         <div class="row g-4">
@@ -250,7 +250,7 @@
         @else
             <h2 class="display-4 fw-bold text-white mb-3">Ready for Your Perfect Cut?</h2>
             <p class="lead text-white-50 mb-5">
-                Join thousands of happy clients who trust TrimTime for quick, reliable barber bookings.
+                Join thousands of happy clients who trust BarberTime for quick, reliable barber bookings.
             </p>
             <div class="d-flex gap-3 justify-content-center flex-wrap">
                 <a href="{{ route('frontend.shops.index') }}" class="btn tt-btn-primary btn-lg px-5">

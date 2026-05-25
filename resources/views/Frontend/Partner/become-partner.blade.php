@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 
-@section('title', 'Become a Partner — TrimTime')
+@section('title', 'Become a Partner — BarberTime')
 
 @section('content')
 <div class="container py-5" style="margin-top: 70px;">
@@ -9,7 +9,7 @@
 
             {{-- Header --}}
             <div class="text-center mb-5">
-                <h1 class="fw-bold">Become a TrimTime Partner</h1>
+                <h1 class="fw-bold">Become a BarberTime Partner</h1>
                 <p class="text-muted fs-5">
                     Join Nepal's growing network of professional barber shops.
                     Register your shop and start receiving online bookings.
@@ -247,7 +247,7 @@
                             </div>
 
                             <div class="col-12">
-                                <label for="description" class="form-label">Why do you want to join TrimTime? (Optional)</label>
+                                <label for="description" class="form-label">Why do you want to join BarberTime? (Optional)</label>
                                 <textarea name="description" id="description" rows="3"
                                         class="form-control @error('description') is-invalid @enderror"
                                         placeholder="Tell us about your shop...">{{ old('description') }}</textarea>
@@ -277,7 +277,7 @@
                                     required>
                                 <div class="form-text">
                                     <i class="bi bi-shield-lock me-1 text-success"></i>
-                                    JPG, PNG or PDF — max 5MB. Only reviewed by TrimTime admins.
+                                    JPG, PNG or PDF — max 5MB. Only reviewed by BarberTime admins.
                                 </div>
                                 @error('shop_license')
                                     <div class="invalid-feedback">{{ $message }}</div>

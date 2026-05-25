@@ -80,12 +80,12 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✂ TrimTime</h1>
+            <h1>✂ BarberTime</h1>
             <p>Premium Barber Booking Platform</p>
         </div>
         <div class="body">
             <p>Hello,</p>
-            <p>We received a request to reset your TrimTime account password. Use the OTP below to proceed:</p>
+            <p>We received a request to reset your BarberTime account password. Use the OTP below to proceed:</p>
 
             <div class="otp-box">
                 <div class="otp-label">Your One-Time Password</div>
@@ -94,10 +94,10 @@
             </div>
 
             <p>If you did not request a password reset, please ignore this email. Your account remains secure.</p>
-            <p>— The TrimTime Team</p>
+            <p>— The BarberTime Team</p>
         </div>
         <div class="footer">
-            &copy; {{ date('Y') }} TrimTime. All rights reserved.
+            &copy; {{ date('Y') }} BarberTime. All rights reserved.
         </div>
     </div>
 </body>

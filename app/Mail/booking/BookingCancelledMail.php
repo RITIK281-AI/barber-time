@@ -22,7 +22,7 @@ class BookingCancelledMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Booking Cancelled - TrimTime',
+            subject: 'Booking Cancelled - BarberTime',
         );
     }
 

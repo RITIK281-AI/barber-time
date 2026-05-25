@@ -18,7 +18,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1> TrimTime</h1>
+            <h1> BarberTime</h1>
         </div>
         <div class="body">
             <div class="success-icon">✅</div>
@@ -47,12 +47,12 @@
             </div>
 
             <div class="thank-you">
-                <strong>Thank you for choosing TrimTime! </strong><br>
+                <strong>Thank you for choosing BarberTime! </strong><br>
                 We hope you enjoy your experience at {{ $booking->barberShop->name }}. See you there!
             </div>
         </div>
         <div class="footer">
-            &copy; {{ date('Y') }} TrimTime &mdash; Barber Booking System, Nepal
+            &copy; {{ date('Y') }} BarberTime &mdash; Barber Booking System, Nepal
         </div>
     </div>
 </body>

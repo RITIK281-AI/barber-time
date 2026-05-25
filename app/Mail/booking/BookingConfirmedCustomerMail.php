@@ -20,7 +20,7 @@ class BookingConfirmedCustomerMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Your Booking Has Been Confirmed - TrimTime',
+            subject: 'Your Booking Has Been Confirmed - BarberTime',
         );
     }
 

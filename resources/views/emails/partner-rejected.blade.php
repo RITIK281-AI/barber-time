@@ -1,8 +1,8 @@
-<h2>Update on Your TrimTime Partner Application</h2>
+<h2>Update on Your BarberTime Partner Application</h2>
 
 <p>Hello {{ $barberShop->owner_name }},</p>
 
-<p>Thank you for your interest in becoming a TrimTime partner. We have carefully reviewed your application for <strong>{{ $barberShop->name }}</strong>.</p>
+<p>Thank you for your interest in becoming a BarberTime partner. We have carefully reviewed your application for <strong>{{ $barberShop->name }}</strong>.</p>
 
 <p style="margin: 20px 0; padding: 15px; background-color: #fef3cd; border-left: 4px solid #ff9800; border-radius: 4px;">
     <strong>We regret to inform you that we are unable to approve your partnership application at this time.</strong>
@@ -26,4 +26,4 @@
 
 <p><strong>Contact Us:</strong> <a href="mailto:support@trimtime.com.np">support@trimtime.com.np</a></p>
 
-<p>We appreciate your understanding and hope to work with you in the future.<br>— The TrimTime Team</p>
+<p>We appreciate your understanding and hope to work with you in the future.<br>— The BarberTime Team</p>

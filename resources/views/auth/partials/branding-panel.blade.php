@@ -29,10 +29,10 @@
 
     <div class="auth-left-content">
         <div class="auth-logo-circle">
-            <img src="{{ asset('images/TrimTime_logo.svg') }}" class="auth-logo-img" alt="TrimTime logo">
+            <img src="{{ asset('images/BarberTime_logo.svg') }}" class="auth-logo-img" alt="BarberTime logo">
         </div>
 
-        <h1 class="auth-brand-name">TrimTime</h1>
+        <h1 class="auth-brand-name">BarberTime</h1>
         <p class="auth-brand-tag">Professional barber booking for customers and shops.</p>
 
         <ul class="auth-features">

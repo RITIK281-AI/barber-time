@@ -1,0 +1,79 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .shop-bg { fill: #2563EB; }
+      .shop-white { fill: #FFFFFF; }
+      .shop-dark { fill: #1E40AF; }
+      .shop-red { fill: #DC2626; }
+    </style>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" class="shop-bg"/>
+  
+  <!-- Barber Shop Building -->
+  <g>
+    <!-- Building Main Structure -->
+    <rect x="40" y="50" width="120" height="100" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
+    
+    <!-- Roof/Awning -->
+    <polygon points="40,50 100,25 160,50" class="shop-dark"/>
+    
+    <!-- Door -->
+    <rect x="75" y="110" width="50" height="40" class="shop-dark"/>
+    <circle cx="120" cy="130" r="2.5" class="shop-white"/>
+    
+    <!-- Window 1 (Top Left) -->
+    <rect x="50" y="65" width="25" height="25" class="shop-dark"/>
+    <line x1="62.5" y1="65" x2="62.5" y2="90" stroke="#2563EB" stroke-width="1"/>
+    <line x1="50" y1="77.5" x2="75" y2="77.5" stroke="#2563EB" stroke-width="1"/>
+    
+    <!-- Window 2 (Top Right) -->
+    <rect x="125" y="65" width="25" height="25" class="shop-dark"/>
+    <line x1="137.5" y1="65" x2="137.5" y2="90" stroke="#2563EB" stroke-width="1"/>
+    <line x1="125" y1="77.5" x2="150" y2="77.5" stroke="#2563EB" stroke-width="1"/>
+    
+    <!-- Barber Pole (Left) -->
+    <g>
+      <rect x="30" y="45" width="5" height="110" class="shop-white" stroke="#1E40AF" stroke-width="1"/>
+      <ellipse cx="32.5" cy="48" rx="3.5" ry="2" class="shop-red"/>
+      <path d="M 28 55 Q 32.5 57 37 55" class="shop-red"/>
+      <path d="M 28 65 Q 32.5 67 37 65" class="shop-red"/>
+      <path d="M 28 75 Q 32.5 77 37 75" class="shop-red"/>
+      <path d="M 28 85 Q 32.5 87 37 85" class="shop-red"/>
+      <path d="M 28 95 Q 32.5 97 37 95" class="shop-red"/>
+      <path d="M 28 105 Q 32.5 107 37 105" class="shop-red"/>
+      <path d="M 28 115 Q 32.5 117 37 115" class="shop-red"/>
+      <path d="M 28 125 Q 32.5 127 37 125" class="shop-red"/>
+      <circle cx="32.5" cy="42" r="4" class="shop-white" stroke="#1E40AF" stroke-width="1"/>
+    </g>
+    
+    <!-- Barber Pole (Right) -->
+    <g>
+      <rect x="165" y="45" width="5" height="110" class="shop-white" stroke="#1E40AF" stroke-width="1"/>
+      <ellipse cx="167.5" cy="48" rx="3.5" ry="2" class="shop-red"/>
+      <path d="M 163 55 Q 167.5 57 172 55" class="shop-red"/>
+      <path d="M 163 65 Q 167.5 67 172 65" class="shop-red"/>
+      <path d="M 163 75 Q 167.5 77 172 75" class="shop-red"/>
+      <path d="M 163 85 Q 167.5 87 172 85" class="shop-red"/>
+      <path d="M 163 95 Q 167.5 97 172 95" class="shop-red"/>
+      <path d="M 163 105 Q 167.5 107 172 105" class="shop-red"/>
+      <path d="M 163 115 Q 167.5 117 172 115" class="shop-red"/>
+      <path d="M 163 125 Q 167.5 127 172 125" class="shop-red"/>
+      <circle cx="167.5" cy="42" r="4" class="shop-white" stroke="#1E40AF" stroke-width="1"/>
+    </g>
+    
+    <!-- Scissors Icon (Center) -->
+    <g transform="translate(100, 85)">
+      <!-- Left blade -->
+      <path d="M -8 -6 Q -10 -4 -8 2 Q -6 4 -4 2 Q -6 -4 -8 -6" class="shop-dark" stroke="#FFFFFF" stroke-width="0.5"/>
+      <!-- Right blade -->
+      <path d="M 8 -6 Q 10 -4 8 2 Q 6 4 4 2 Q 6 -4 8 -6" class="shop-dark" stroke="#FFFFFF" stroke-width="0.5"/>
+      <!-- Handle connection -->
+      <line x1="-4" y1="2" x2="4" y2="2" stroke="#FFFFFF" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Outer Circle Border -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+</svg>

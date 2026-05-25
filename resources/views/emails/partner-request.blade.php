@@ -17,11 +17,11 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✂ TrimTime</h1>
+            <h1>✂ BarberTime</h1>
         </div>
         <div class="body">
             <h2>New Partner Request</h2>
-            <p>A new barber shop has submitted a request to become a TrimTime partner.</p>
+            <p>A new barber shop has submitted a request to become a BarberTime partner.</p>
 
             <div class="details">
                 <p><strong>Shop Name:</strong> {{ $barberShop->name }}</p>
@@ -41,10 +41,10 @@
                 <a href="{{ route('admin.partners.show', $barberShop) }}" class="button">Review Partner Request</a>
             </p>
 
-            <p>Thanks,<br><strong>The TrimTime Team</strong></p>
+            <p>Thanks,<br><strong>The BarberTime Team</strong></p>
         </div>
         <div class="footer">
-            © {{ date('Y') }} TrimTime — Pokhara, Nepal
+            © {{ date('Y') }} BarberTime — Pokhara, Nepal
         </div>
     </div>
 </body>

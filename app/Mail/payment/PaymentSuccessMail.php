@@ -18,7 +18,7 @@ class PaymentSuccessMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Payment Successful - Thank You for Choosing TrimTime!',
+            subject: 'Payment Successful - Thank You for Choosing BarberTime!',
         );
     }
 

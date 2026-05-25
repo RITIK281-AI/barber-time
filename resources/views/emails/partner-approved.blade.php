@@ -1,8 +1,8 @@
-<h2>🎉 Congratulations! Your TrimTime Partner Account is Approved!</h2>
+<h2>🎉 Congratulations! Your BarberTime Partner Account is Approved!</h2>
 
 <p>Hello {{ $barberShop->owner_name }},</p>
 
-<p>We're thrilled to let you know that <strong>{{ $barberShop->name }}</strong> has been approved as a TrimTime partner!</p>
+<p>We're thrilled to let you know that <strong>{{ $barberShop->name }}</strong> has been approved as a BarberTime partner!</p>
 
 <p style="margin: 20px 0; padding: 15px; background-color: #c8e6c9; border-left: 4px solid #4caf50; border-radius: 4px;">
     ✅ Your shop is now live on our platform and you can start receiving online bookings from customers!
@@ -41,4 +41,4 @@
 
 <p style="margin-top: 30px;">Need help? Contact us at <a href="mailto:support@trimtime.com.np">support@trimtime.com.np</a></p>
 
-<p>Welcome aboard!<br><strong>— The TrimTime Team</strong></p>
+<p>Welcome aboard!<br><strong>— The BarberTime Team</strong></p>

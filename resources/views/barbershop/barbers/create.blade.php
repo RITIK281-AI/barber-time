@@ -7,7 +7,7 @@
     <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-5 gap-3">
         <div>
             <h2 class="fw-bold text-dark mb-1">Add New Barber</h2>
-            <p class="text-muted mb-0">Create a new barber profile to automate scheduling and improve customer experience in TrimTime</p>
+            <p class="text-muted mb-0">Create a new barber profile to automate scheduling and improve customer experience in BarberTime</p>
         </div>
         <a href="{{ route('shop.barbers.index') }}" class="btn btn-outline-secondary">
             <i class="bi bi-arrow-left me-1"></i> Back to List

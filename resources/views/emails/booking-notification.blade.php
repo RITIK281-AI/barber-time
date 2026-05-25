@@ -17,7 +17,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✂️ TrimTime</h1>
+            <h1>✂️ BarberTime</h1>
         </div>
         <div class="body">
             <h2>New Booking Request!</h2>
@@ -48,7 +48,7 @@
             <a href="{{ url('/barber/bookings') }}" class="btn">View Booking</a>
         </div>
         <div class="footer">
-            &copy; {{ date('Y') }} TrimTime &mdash; Barber Booking System, Nepal
+            &copy; {{ date('Y') }} BarberTime &mdash; Barber Booking System, Nepal
         </div>
     </div>
 </body>

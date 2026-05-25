@@ -27,7 +27,7 @@ class PartnerRejected extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'TrimTime Partnership Application Update',
+            subject: 'BarberTime Partnership Application Update',
         );
     }
 

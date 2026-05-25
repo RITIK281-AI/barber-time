@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrimTime Admin Panel</title>
+    <title>BarberTime Admin Panel</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
@@ -27,8 +27,8 @@
         <aside class="admin-sidebar" style="height: 100vh; position: sticky; top: 0; z-index: 1040;">
             <div class="sidebar-brand-area p-4 pb-2">
                 <div class="admin-brand-wrapper d-flex align-items-center gap-2">
-                    <img src="{{ asset('images/TrimTime_logo.svg') }}" class="admin-logo" alt="TrimTime" style="height: 38px; width: auto;">
-                    <span class="admin-brand fw-bold fs-5 text-white">TrimTime Admin</span>
+                    <img src="{{ asset('images/BarberTime_logo.svg') }}" class="admin-logo" alt="BarberTime" style="height: 38px; width: auto;">
+                    <span class="admin-brand fw-bold fs-5 text-white">BarberTime Admin</span>
                 </div>
             </div>
 
@@ -138,7 +138,7 @@
                 <button class="sidebar-toggle d-lg-none me-3" type="button">
                     <i class="bi bi-list fs-3"></i>
                 </button>
-                    <img src="{{ asset('images/TrimTime_logo.svg') }}" class="admin-top-logo d-lg-none me-2" alt="TrimTime">
+                    <img src="{{ asset('images/BarberTime_logo.svg') }}" class="admin-top-logo d-lg-none me-2" alt="BarberTime">
                     <div class="d-none d-md-block">
                         <h5 class="mb-0 fw-bold text-dark">@yield('title', 'Dashboard')</h5>
                         <small class="text-muted">{{ date('d M Y') }}</small>

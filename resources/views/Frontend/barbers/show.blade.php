@@ -1,6 +1,6 @@
 @extends('frontend.layouts.app')
 
-@section('title', $barber->name . ' — TrimTime')
+@section('title', $barber->name . ' — BarberTime')
 
 @section('content')
 

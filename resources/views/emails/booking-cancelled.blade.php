@@ -17,7 +17,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>✂️ TrimTime</h1>
+            <h1>✂️ BarberTime</h1>
         </div>
         <div class="body">
             <h2>Booking Cancelled ❌</h2>
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="footer">
-            &copy; {{ date('Y') }} TrimTime &mdash; Barber Booking System, Nepal
+            &copy; {{ date('Y') }} BarberTime &mdash; Barber Booking System, Nepal
         </div>
     </div>
 </body>

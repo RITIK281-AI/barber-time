@@ -6,7 +6,7 @@
             <div class="col-lg-4 col-md-6">
                 <a href="{{ route('home') }}" class="text-decoration-none">
                     <h4 class="trimtime-brand mb-3">
-                        <i class="bi bi-scissors me-1"></i>TrimTime
+                        <i class="bi bi-scissors me-1"></i>BarberTime
                     </h4>
                 </a>
                 <p class="text small lh-lg">
@@ -69,7 +69,7 @@
         <!-- bottom bar -->
         <div class="tt-footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
             <p class="mb-0 small">
-                © {{ date('Y') }} TrimTime &mdash; Final Year Project, Informatics College Pokhara
+                © {{ date('Y') }} BarberTime &mdash; Final Year Project, Informatics College Pokhara
             </p>
             <p class="mb-0 small mt-2 mt-md-0 text-muted">
                 Built with Laravel &amp; Bootstrap &bull; Made in Nepal
