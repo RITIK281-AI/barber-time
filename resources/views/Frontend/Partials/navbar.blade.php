@@ -3,7 +3,7 @@
 
         <!-- brand -->
         <a class="navbar-brand trimtime-brand" href="{{ route('home') }}">
-            <img src="{{ asset('images/TrimTime_logo.png') }}" class="trimtime-brand-logo" alt="TrimTime">
+            <img src="{{ asset('images/TrimTime_logo.svg') }}" class="trimtime-brand-logo" alt="TrimTime">
             <span class="trimtime-brand-text">TrimTime</span>
         </a>
 

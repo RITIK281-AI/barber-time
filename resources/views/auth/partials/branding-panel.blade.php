@@ -29,7 +29,7 @@
 
     <div class="auth-left-content">
         <div class="auth-logo-circle">
-            <img src="{{ asset('images/TrimTime_logo.png') }}" class="auth-logo-img" alt="TrimTime logo">
+            <img src="{{ asset('images/TrimTime_logo.svg') }}" class="auth-logo-img" alt="TrimTime logo">
         </div>
 
         <h1 class="auth-brand-name">TrimTime</h1>

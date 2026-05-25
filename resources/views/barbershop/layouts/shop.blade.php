@@ -22,7 +22,7 @@
     <aside class="sidebar">
         <div class="sidebar-header">
             <div class="sidebar-brand">
-                <img src="{{ asset('images/TrimTime_logo.png') }}" class="sidebar-brand-logo" alt="TrimTime">
+                <img src="{{ asset('images/TrimTime_logo.svg') }}" class="sidebar-brand-logo" alt="TrimTime">
                 <span>TrimTime Shop</span>
             </div>
 
@@ -92,7 +92,7 @@
                 <button class="sidebar-toggle d-lg-none me-3" type="button">
                     <i class="bi bi-list fs-3"></i>
                 </button>
-                <img src="{{ asset('images/TrimTime_logo.png') }}" class="sidebar-brand-logo d-lg-none me-2" alt="TrimTime">
+                <img src="{{ asset('images/TrimTime_logo.svg') }}" class="sidebar-brand-logo d-lg-none me-2" alt="TrimTime">
                 <div class="d-none d-md-block">
                     <h5 class="mb-0 fw-bold text-dark">@yield('title', 'Dashboard')</h5>
                     <small class="text-muted">{{ date('d M Y') }}</small>

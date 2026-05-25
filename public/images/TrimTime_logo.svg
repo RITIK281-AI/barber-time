@@ -1,0 +1,55 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .barber-circle { fill: #000000; }
+      .barber-white { fill: #FFFFFF; }
+      .barber-stroke { stroke: #FFFFFF; stroke-width: 8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  
+  <!-- Outer Circle Background -->
+  <circle cx="256" cy="256" r="250" class="barber-circle"/>
+  
+  <!-- Head Profile Group -->
+  <g>
+    <!-- Face Shape -->
+    <path d="M 220 140 Q 200 160 200 200 Q 200 260 240 300 L 300 300 Q 340 260 340 200 Q 340 160 320 140 Z" class="barber-white"/>
+    
+    <!-- Spiky Hair/Quiff -->
+    <path d="M 220 130 Q 210 90 240 70 Q 260 55 280 60 Q 300 55 320 70 Q 350 90 340 130" class="barber-white"/>
+    
+    <!-- Hair Spikes Detail -->
+    <path d="M 240 70 L 235 35" class="barber-stroke"/>
+    <path d="M 270 55 L 270 20" class="barber-stroke"/>
+    <path d="M 300 70 L 305 35" class="barber-stroke"/>
+    
+    <!-- Beard -->
+    <path d="M 240 270 Q 270 300 300 270" class="barber-white"/>
+    <path d="M 245 280 Q 270 310 295 280" class="barber-white"/>
+    
+    <!-- Beard Detail Lines -->
+    <line x1="250" y1="275" x2="250" y2="295" class="barber-stroke"/>
+    <line x1="270" y1="280" x2="270" y2="305" class="barber-stroke"/>
+    <line x1="290" y1="275" x2="290" y2="295" class="barber-stroke"/>
+    
+    <!-- Ear -->
+    <ellipse cx="175" cy="210" rx="22" ry="35" class="barber-white"/>
+    <ellipse cx="180" cy="210" rx="12" ry="20" fill="#000000"/>
+    
+    <!-- Eye -->
+    <circle cx="240" cy="190" r="8" class="barber-white"/>
+    <circle cx="240" cy="190" r="4" fill="#000000"/>
+    
+    <!-- Nose -->
+    <path d="M 270 200 L 270 240" class="barber-stroke"/>
+    
+    <!-- Mouth/Chin -->
+    <path d="M 250 260 Q 270 270 290 260" class="barber-stroke"/>
+  </g>
+  
+  <!-- Outer Circle Border -->
+  <circle cx="256" cy="256" r="250" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+  
+  <!-- Inner Decorative Circle -->
+  <circle cx="256" cy="256" r="235" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+</svg>
