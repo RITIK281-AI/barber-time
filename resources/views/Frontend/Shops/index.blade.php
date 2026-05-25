@@ -16,13 +16,13 @@
         transition: all 0.2s;
     }
     .tt-pagination .page-link:hover {
-        background-color: var(--trim-orange-light);
-        border-color: var(--trim-orange);
-        color: var(--trim-orange);
+        background-color: var(--trim-blue-light);
+        border-color: var(--trim-blue);
+        color: var(--trim-blue);
     }
     .tt-pagination .page-item.active .page-link {
-        background-color: var(--trim-orange);
-        border-color: var(--trim-orange);
+        background-color: var(--trim-blue);
+        border-color: var(--trim-blue);
         color: #fff;
     }
     .tt-pagination .page-item.disabled .page-link {

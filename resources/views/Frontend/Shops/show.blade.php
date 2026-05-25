@@ -17,7 +17,7 @@
     }
 
     .service-select-card.is-selected {
-        border: 2px solid var(--trim-orange, #f97316) !important;
+        border: 2px solid var(--trim-blue, #f97316) !important;
         background: #fff7f1;
         box-shadow: 0 10px 24px rgba(249, 115, 22, 0.12);
     }
@@ -461,7 +461,7 @@
                         <div id="selected-items"></div>
                         <div class="border-top mt-2 pt-2 d-flex justify-content-between">
                             <span class="fw-bold">Total</span>
-                            <span class="fw-bold text-trim-orange" id="summary-total">Rs. 0.00</span>
+                            <span class="fw-bold text-trim-blue" id="summary-total">Rs. 0.00</span>
                         </div>
                         <div class="d-flex justify-content-between text-muted small mt-1">
                             <span>Est. Duration</span>

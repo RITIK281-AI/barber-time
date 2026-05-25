@@ -23,19 +23,19 @@
                     <img id="photoPreview"
                          src="{{ asset('storage/' . auth()->user()->profile_photo) }}"
                          alt="Photo"
-                         style="width:100px;height:100px;border-radius:50%;object-fit:cover;border:3px solid var(--trim-orange-border);">
+                         style="width:100px;height:100px;border-radius:50%;object-fit:cover;border:3px solid var(--trim-blue-border);">
                 @else
                     <div id="photoPlaceholder"
-                         style="width:100px;height:100px;border-radius:50%;background:var(--trim-orange-light);border:3px solid var(--trim-orange-border);display:flex;align-items:center;justify-content:center;font-size:2rem;color:var(--trim-orange);font-weight:700;">
+                         style="width:100px;height:100px;border-radius:50%;background:var(--trim-blue-light);border:3px solid var(--trim-blue-border);display:flex;align-items:center;justify-content:center;font-size:2rem;color:var(--trim-blue);font-weight:700;">
                         {{ strtoupper(substr(auth()->user()->name, 0, 1)) }}
                     </div>
                     <img id="photoPreview" src="" alt="Photo"
-                         style="width:100px;height:100px;border-radius:50%;object-fit:cover;border:3px solid var(--trim-orange-border);display:none;">
+                         style="width:100px;height:100px;border-radius:50%;object-fit:cover;border:3px solid var(--trim-blue-border);display:none;">
                 @endif
 
                 {{-- edit icon button --}}
                 <label for="profile_photo"
-                       style="position:absolute;bottom:2px;right:2px;width:28px;height:28px;background:var(--trim-orange);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.75rem;cursor:pointer;border:2px solid #fff;"
+                       style="position:absolute;bottom:2px;right:2px;width:28px;height:28px;background:var(--trim-blue);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.75rem;cursor:pointer;border:2px solid #fff;"
                        title="Change photo">
                     <i class="bi bi-pencil-fill"></i>
                 </label>
@@ -151,7 +151,7 @@
         </div>
 
         <div class="mt-4 d-flex gap-2">
-            <button type="submit" class="btn btn-trim-orange px-4">
+            <button type="submit" class="btn btn-trim-blue px-4">
                 <i class="bi bi-check-lg me-1"></i>Save Changes
             </button>
             <a href="{{ route('dashboard') }}?tab=profile"

@@ -17,7 +17,7 @@
         </span>
 
         <h1 class="display-3 fw-bold text-white mb-4 lh-sm">
-            Find Your <span class="text-trim-orange">Perfect Barber</span><br>
+            Find Your <span class="text-trim-blue">Perfect Barber</span><br>
             <span class="fs-3 fw-normal">Book in 60 seconds</span>
         </h1>
 
@@ -48,7 +48,7 @@
         </div>
 
         @auth
-            <span class="badge bg-trim-orange fs-6 px-4 py-2 rounded-pill text-white">
+            <span class="badge bg-trim-blue fs-6 px-4 py-2 rounded-pill text-white">
                 Welcome back, {{ Auth::user()->name }} 👋
             </span>
         @else
@@ -70,19 +70,19 @@
     <div class="container">
         <div class="row text-center g-4">
             <div class="col-6 col-md-3">
-                <h2 class="display-5 fw-bold text-trim-orange mb-1">
+                <h2 class="display-5 fw-bold text-trim-blue mb-1">
                     {{ $shopCount > 0 ? $shopCount.'+' : '0' }}
                 </h2>
                 <p class="text-muted mb-0">Barber Shops</p>
             </div>
             <div class="col-6 col-md-3">
-                <h2 class="display-5 fw-bold text-trim-orange mb-1">
+                <h2 class="display-5 fw-bold text-trim-blue mb-1">
                     {{ $clientCount > 0 ? number_format($clientCount).'+' : '0' }}
                 </h2>
                 <p class="text-muted mb-0">Happy Clients</p>
             </div>
             <div class="col-6 col-md-3">
-                <h2 class="display-5 fw-bold text-trim-orange mb-1">
+                <h2 class="display-5 fw-bold text-trim-blue mb-1">
                     {{ $avgRating ? number_format($avgRating, 1) : 'N/A' }}
                     @if($avgRating)
                         <i class="bi bi-star-fill fs-4"></i>
@@ -91,7 +91,7 @@
                 <p class="text-muted mb-0">Average Rating</p>
             </div>
             <div class="col-6 col-md-3">
-                <h2 class="display-5 fw-bold text-trim-orange mb-1">
+                <h2 class="display-5 fw-bold text-trim-blue mb-1">
                     <i class="bi bi-lightning-fill fs-3"></i>
                 </h2>
                 <p class="text-muted mb-0">Instant Confirmation</p>
@@ -103,7 +103,7 @@
 {{-- ── WHY TRIMTIME ──────────────────────────────────────────────── --}}
 <section class="py-5 bg-white">
     <div class="container text-center">
-        <h2 class="display-5 fw-bold mb-2">Why Choose <span class="text-trim-orange">TrimTime</span>?</h2>
+        <h2 class="display-5 fw-bold mb-2">Why Choose <span class="text-trim-blue">TrimTime</span>?</h2>
         <p class="lead text-muted mb-5">Connecting you with trusted local barbers — fast, reliable, and built for Nepal.</p>
 
         <div class="row g-4">
@@ -215,7 +215,7 @@
                             <i class="bi bi-scissors"></i>
                         </div>
                         <h6 class="fw-semibold mb-2">{{ $service->name }}</h6>
-                        <p class="text-trim-orange fw-bold fs-5 mb-1">रु {{ number_format($service->price) }}</p>
+                        <p class="text-trim-blue fw-bold fs-5 mb-1">रु {{ number_format($service->price) }}</p>
                         <small class="text-muted d-block mb-1">
                             <i class="bi bi-clock me-1"></i>{{ $service->duration }} min
                         </small>

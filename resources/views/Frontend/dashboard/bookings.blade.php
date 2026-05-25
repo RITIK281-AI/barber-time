@@ -72,7 +72,7 @@
             <div class="panel-title">Upcoming Appointments</div>
             <div class="panel-subtitle">Your scheduled sessions</div>
         </div>
-        <a href="{{ route('frontend.shops.index') }}" class="btn btn-trim-orange btn-sm px-3">
+        <a href="{{ route('frontend.shops.index') }}" class="btn btn-trim-blue btn-sm px-3">
             <i class="bi bi-plus me-1"></i>New Booking
         </a>
     </div>
@@ -82,7 +82,7 @@
             <i class="bi bi-calendar-check d-block mb-2" style="font-size:2.5rem;color:#ddd"></i>
             <div class="fw-semibold mb-1">No upcoming appointments</div>
             <p class="small mb-3">Book your next grooming session!</p>
-            <a href="{{ route('frontend.shops.index') }}" class="btn btn-trim-orange btn-sm px-4">
+            <a href="{{ route('frontend.shops.index') }}" class="btn btn-trim-blue btn-sm px-4">
                 Find a Barber Shop
             </a>
         </div>
@@ -402,7 +402,7 @@
                             </div>
                         @endif
                         <a href="{{ route('frontend.shops.show', $shop->id) }}"
-                           class="btn btn-trim-orange btn-sm w-100 mt-auto mt-2"
+                           class="btn btn-trim-blue btn-sm w-100 mt-auto mt-2"
                            style="font-size:0.78rem">
                             Book Now
                         </a>

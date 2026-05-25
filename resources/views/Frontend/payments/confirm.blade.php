@@ -23,7 +23,7 @@
                 {{-- Booking Summary Card --}}
                 <div class="card shadow-sm mb-4">
                     <div class="card-header bg-white fw-semibold">
-                        <i class="bi bi-receipt me-2 text-trim-orange"></i>Booking Summary
+                        <i class="bi bi-receipt me-2 text-trim-blue"></i>Booking Summary
                     </div>
                     <div class="card-body">
                         <table class="table table-borderless mb-0">
@@ -77,7 +77,7 @@
 
                             <tr class="border-top">
                                 <td class="fw-bold fs-5">Total Payable</td>
-                                <td class="fw-bold fs-5 text-trim-orange">
+                                <td class="fw-bold fs-5 text-trim-blue">
                                     Rs. {{ number_format($booking->final_amount ?? $booking->service?->price ?? 0, 2) }}
                                 </td>
                             </tr>
@@ -88,7 +88,7 @@
                 {{-- Payment Method Selection --}}
                 <div class="card shadow-sm">
                     <div class="card-header bg-white fw-semibold">
-                        <i class="bi bi-credit-card me-2 text-trim-orange"></i>Choose Payment Method
+                        <i class="bi bi-credit-card me-2 text-trim-blue"></i>Choose Payment Method
                     </div>
                     <div class="card-body">
 

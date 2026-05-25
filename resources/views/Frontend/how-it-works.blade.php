@@ -8,9 +8,9 @@
 <section class="py-5 text-center"
     style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
     <div class="container py-4">
-        <span class="badge bg-trim-orange text-white px-3 py-2 mt-5 mb-3 fs-6">Simple Process</span>
+        <span class="badge bg-trim-blue text-white px-3 py-2 mt-5 mb-3 fs-6">Simple Process</span>
         <h1 class="display-4 fw-bold text-white mb-3">
-            How <span class="text-trim-orange">TrimTime</span> Works
+            How <span class="text-trim-blue">TrimTime</span> Works
         </h1>
         <p class="lead text-white-50 mx-auto" style="max-width: 560px;">
             From finding your barber to showing up fresh — it takes less than 60 seconds to book.
@@ -64,7 +64,7 @@
 <section class="py-5 bg-white">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold display-6">For <span class="text-trim-orange">Customers</span></h2>
+            <h2 class="fw-bold display-6">For <span class="text-trim-blue">Customers</span></h2>
             <p class="text-muted">Everything you get as a TrimTime customer</p>
         </div>
         <div class="row g-4">
@@ -94,7 +94,7 @@
 <section class="py-5 bg-light">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold display-6">For <span class="text-trim-orange">Barber Shops</span></h2>
+            <h2 class="fw-bold display-6">For <span class="text-trim-blue">Barber Shops</span></h2>
             <p class="text-muted">Grow your business with TrimTime's management tools</p>
         </div>
         <div class="row g-4">
@@ -124,13 +124,13 @@
 <section class="py-5 bg-white">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold display-6">Frequently Asked <span class="text-trim-orange">Questions</span></h2>
+            <h2 class="fw-bold display-6">Frequently Asked <span class="text-trim-blue">Questions</span></h2>
             <p class="text-muted">Everything you need to know about TrimTime</p>
         </div>
 
         {{-- Booking Section --}}
         <div class="mb-5">
-            <h4 class="fw-bold mb-4 text-trim-orange">
+            <h4 class="fw-bold mb-4 text-trim-blue">
                 <i class="bi bi-calendar-check me-2"></i> Booking
             </h4>
             <div class="accordion accordion-flush" id="bookingAccordion">
@@ -184,7 +184,7 @@
 
         {{-- Cancellation & No-Show Section --}}
         <div class="mb-5">
-            <h4 class="fw-bold mb-4 text-trim-orange">
+            <h4 class="fw-bold mb-4 text-trim-blue">
                 <i class="bi bi-x-circle me-2"></i> Cancellation & No-Show Policy
             </h4>
             <div class="accordion accordion-flush" id="cancellationAccordion">
@@ -254,7 +254,7 @@
 
         {{-- Payment Section --}}
         <div class="mb-5">
-            <h4 class="fw-bold mb-4 text-trim-orange">
+            <h4 class="fw-bold mb-4 text-trim-blue">
                 <i class="bi bi-credit-card me-2"></i> Payment Methods & Pricing
             </h4>
             <div class="accordion accordion-flush" id="paymentAccordion">
@@ -329,7 +329,7 @@
 
         {{-- Loyalty Section --}}
         <div class="mb-5">
-            <h4 class="fw-bold mb-4 text-trim-orange">
+            <h4 class="fw-bold mb-4 text-trim-blue">
                 <i class="bi bi-gift me-2"></i> Loyalty Points
             </h4>
             <div class="accordion accordion-flush" id="loyaltyAccordion">
@@ -387,7 +387,7 @@
 
         {{-- Other Questions --}}
         <div class="mb-5">
-            <h4 class="fw-bold mb-4 text-trim-orange">
+            <h4 class="fw-bold mb-4 text-trim-blue">
                 <i class="bi bi-chat-dots me-2"></i> Other Questions
             </h4>
             <div class="accordion accordion-flush" id="otherAccordion">
@@ -402,7 +402,7 @@
                             <strong>Reach us via:</strong>
                             <ul class="mt-2 mb-0">
                                 <li>📧 Email: trimtime66@gmail.com</li>
-                                <li>📱 WhatsApp: <a href="https://wa.me/977?text=Hello%20TrimTime" target="_blank" class="text-trim-orange">Message us</a></li>
+                                <li>📱 WhatsApp: <a href="https://wa.me/977?text=Hello%20TrimTime" target="_blank" class="text-trim-blue">Message us</a></li>
                                 <li>📞 Phone: +977 61 123456</li>
                                 <li>🕒 Hours: Sun – Fri: 9 AM – 6 PM (Saturday Closed)</li>
                             </ul>
@@ -419,7 +419,7 @@
                     <div id="other2" class="accordion-collapse collapse" data-bs-parent="#otherAccordion">
                         <div class="accordion-body text-muted">
                             Shops can register as partners on our platform.
-                            <a href="{{ route('frontend.shops.partner.create') }}" class="text-trim-orange fw-semibold">
+                            <a href="{{ route('frontend.shops.partner.create') }}" class="text-trim-blue fw-semibold">
                                 Become a Partner <i class="bi bi-arrow-right ms-1"></i>
                             </a>
                         </div>

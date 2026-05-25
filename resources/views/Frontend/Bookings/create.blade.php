@@ -78,7 +78,7 @@
                                 @endforeach
                                 <div class="d-flex justify-content-between border-top pt-2 mt-2 fw-bold">
                                     <span>Total <small class="fw-normal text-muted">({{ $selectedServices->sum('duration') }} min)</small></span>
-                                    <span class="text-trim-orange">Rs. {{ number_format($selectedServices->sum('price'), 2) }}</span>
+                                    <span class="text-trim-blue">Rs. {{ number_format($selectedServices->sum('price'), 2) }}</span>
                                 </div>
                             </div>
                         @endif

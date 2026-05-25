@@ -40,7 +40,7 @@
 
         <div class="card border-0 shadow-sm rounded-4 mb-4">
             <div class="card-header bg-white fw-semibold">
-                <i class="bi bi-info-circle me-2 text-trim-orange"></i>Appointment Information
+                <i class="bi bi-info-circle me-2 text-trim-blue"></i>Appointment Information
             </div>
             <div class="card-body">
                 <div class="row g-3">
@@ -78,7 +78,7 @@
 
         <div class="card border-0 shadow-sm rounded-4 mb-4">
             <div class="card-header bg-white fw-semibold">
-                <i class="bi bi-scissors me-2 text-trim-orange"></i>Service Details
+                <i class="bi bi-scissors me-2 text-trim-blue"></i>Service Details
             </div>
             <div class="card-body">
                 @if($serviceItems->isNotEmpty())
@@ -111,7 +111,7 @@
 
         <div class="card border-0 shadow-sm rounded-4 mb-4">
             <div class="card-header bg-white fw-semibold">
-                <i class="bi bi-receipt me-2 text-trim-orange"></i>Amount Summary
+                <i class="bi bi-receipt me-2 text-trim-blue"></i>Amount Summary
             </div>
             <div class="card-body">
                 <div class="d-flex justify-content-between mb-2">
@@ -137,7 +137,7 @@
 
                 <div class="d-flex justify-content-between fw-bold fs-5">
                     <span>Final Amount</span>
-                    <span class="text-trim-orange">Rs. {{ number_format($booking->final_amount ?? $booking->total_price ?? 0, 2) }}</span>
+                    <span class="text-trim-blue">Rs. {{ number_format($booking->final_amount ?? $booking->total_price ?? 0, 2) }}</span>
                 </div>
             </div>
         </div>

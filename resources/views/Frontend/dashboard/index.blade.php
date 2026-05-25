@@ -53,7 +53,7 @@
                             </a>
                         </li>
                         <li class="nav-item border-top mt-2 pt-1">
-                            <a class="nav-link" style="color: var(--trim-orange);"
+                            <a class="nav-link" style="color: var(--trim-blue);"
                                href="{{ route('frontend.shops.index') }}">
                                 <i class="bi bi-scissors"></i> Book Appointment
                             </a>

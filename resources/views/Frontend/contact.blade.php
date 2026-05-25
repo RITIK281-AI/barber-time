@@ -40,7 +40,7 @@
                         </div>
                         <div>
                             <h6 class="fw-semibold mb-1">WhatsApp Support</h6>
-                            <a href="https://wa.me/977?text=Hello%20TrimTime" target="_blank" class="text-trim-orange text-decoration-none fw-semibold">
+                            <a href="https://wa.me/977?text=Hello%20TrimTime" target="_blank" class="text-trim-blue text-decoration-none fw-semibold">
                                 Message us on WhatsApp
                             </a>
                         </div>
@@ -88,7 +88,7 @@
                     {{-- FAQ Link --}}
                     <div class="mt-5 pt-3 border-top">
                         <p class="text-muted mb-2">Have general questions?</p>
-                        <a href="{{ route('faq') }}" class="btn btn-outline-trim-orange btn-sm">
+                        <a href="{{ route('faq') }}" class="btn btn-outline-trim-blue btn-sm">
                             <i class="bi bi-question-circle me-1"></i> Visit FAQ Page
                         </a>
                     </div>
