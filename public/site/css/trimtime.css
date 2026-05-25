@@ -294,13 +294,13 @@ body.trimtime-user-body main {
 
 .trimtime-brand {
     font-weight: 800;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--trim-blue) !important;
     text-decoration: none;
-    letter-spacing: -0.8px;
+    letter-spacing: -0.5px;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.8rem;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -310,13 +310,15 @@ body.trimtime-user-body main {
 }
 
 .trimtime-brand-logo {
-    height: 38px;
+    height: 40px;
     width: auto;
     object-fit: contain;
 }
 
 .trimtime-brand-text {
     color: var(--trim-blue);
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 /* nav link base */
