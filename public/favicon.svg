@@ -1,0 +1,104 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .shop-bg { fill: #2563EB; }
+      .shop-white { fill: #FFFFFF; }
+      .shop-dark { fill: #1E40AF; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" class="shop-bg"/>
+  
+  <!-- Barber Shop Building -->
+  <g>
+    <!-- Building Main Structure -->
+    <rect x="120" y="150" width="272" height="280" class="shop-white" stroke="#1E40AF" stroke-width="4"/>
+    
+    <!-- Roof/Awning -->
+    <polygon points="120,150 256,80 392,150" class="shop-dark"/>
+    
+    <!-- Door -->
+    <rect x="200" y="320" width="112" height="110" class="shop-dark"/>
+    <circle cx="300" cy="375" r="6" class="shop-white"/>
+    
+    <!-- Door Handle -->
+    <line x1="305" y1="375" x2="310" y2="375" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Window 1 (Top Left) -->
+    <rect x="150" y="190" width="60" height="60" class="shop-dark"/>
+    <line x1="180" y1="190" x2="180" y2="250" stroke="#2563EB" stroke-width="2"/>
+    <line x1="150" y1="220" x2="210" y2="220" stroke="#2563EB" stroke-width="2"/>
+    
+    <!-- Window 2 (Top Right) -->
+    <rect x="302" y="190" width="60" height="60" class="shop-dark"/>
+    <line x1="332" y1="190" x2="332" y2="250" stroke="#2563EB" stroke-width="2"/>
+    <line x1="302" y1="220" x2="362" y2="220" stroke="#2563EB" stroke-width="2"/>
+    
+    <!-- Window 3 (Middle Left) -->
+    <rect x="150" y="270" width="60" height="40" class="shop-dark"/>
+    <line x1="180" y1="270" x2="180" y2="310" stroke="#2563EB" stroke-width="2"/>
+    <line x1="150" y1="290" x2="210" y2="290" stroke="#2563EB" stroke-width="2"/>
+    
+    <!-- Window 4 (Middle Right) -->
+    <rect x="302" y="270" width="60" height="40" class="shop-dark"/>
+    <line x1="332" y1="270" x2="332" y2="310" stroke="#2563EB" stroke-width="2"/>
+    <line x1="302" y1="290" x2="362" y2="290" stroke="#2563EB" stroke-width="2"/>
+    
+    <!-- Barber Pole (Left side) -->
+    <g>
+      <!-- Pole base -->
+      <rect x="100" y="140" width="12" height="260" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
+      
+      <!-- Red stripe (barber pole) -->
+      <ellipse cx="106" cy="145" rx="8" ry="4" fill="#DC2626"/>
+      <path d="M 98 155 Q 106 160 114 155" fill="#DC2626"/>
+      <path d="M 98 175 Q 106 180 114 175" fill="#DC2626"/>
+      <path d="M 98 195 Q 106 200 114 195" fill="#DC2626"/>
+      <path d="M 98 215 Q 106 220 114 215" fill="#DC2626"/>
+      <path d="M 98 235 Q 106 240 114 235" fill="#DC2626"/>
+      <path d="M 98 255 Q 106 260 114 255" fill="#DC2626"/>
+      <path d="M 98 275 Q 106 280 114 275" fill="#DC2626"/>
+      <path d="M 98 295 Q 106 300 114 295" fill="#DC2626"/>
+      <path d="M 98 315 Q 106 320 114 315" fill="#DC2626"/>
+      <path d="M 98 335 Q 106 340 114 335" fill="#DC2626"/>
+      <path d="M 98 355 Q 106 360 114 355" fill="#DC2626"/>
+      
+      <!-- Pole top -->
+      <circle cx="106" cy="135" r="10" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
+    </g>
+    
+    <!-- Barber Pole (Right side) -->
+    <g>
+      <!-- Pole base -->
+      <rect x="400" y="140" width="12" height="260" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
+      
+      <!-- Red stripe (barber pole) -->
+      <ellipse cx="406" cy="145" rx="8" ry="4" fill="#DC2626"/>
+      <path d="M 398 155 Q 406 160 414 155" fill="#DC2626"/>
+      <path d="M 398 175 Q 406 180 414 175" fill="#DC2626"/>
+      <path d="M 398 195 Q 406 200 414 195" fill="#DC2626"/>
+      <path d="M 398 215 Q 406 220 414 215" fill="#DC2626"/>
+      <path d="M 398 235 Q 406 240 414 235" fill="#DC2626"/>
+      <path d="M 398 255 Q 406 260 414 255" fill="#DC2626"/>
+      <path d="M 398 275 Q 406 280 414 275" fill="#DC2626"/>
+      <path d="M 398 295 Q 406 300 414 295" fill="#DC2626"/>
+      <path d="M 398 315 Q 406 320 414 315" fill="#DC2626"/>
+      <path d="M 398 335 Q 406 340 414 335" fill="#DC2626"/>
+      <path d="M 398 355 Q 406 360 414 355" fill="#DC2626"/>
+      
+      <!-- Pole top -->
+      <circle cx="406" cy="135" r="10" class="shop-white" stroke="#1E40AF" stroke-width="2"/>
+    </g>
+    
+    <!-- Scissors Icon (Center) -->
+    <g transform="translate(256, 220)">
+      <!-- Left blade -->
+      <path d="M -20 -15 Q -25 -10 -20 5 Q -15 10 -10 5 Q -15 -10 -20 -15" class="shop-dark" stroke="#FFFFFF" stroke-width="1.5"/>
+      <!-- Right blade -->
+      <path d="M 20 -15 Q 25 -10 20 5 Q 15 10 10 5 Q 15 -10 20 -15" class="shop-dark" stroke="#FFFFFF" stroke-width="1.5"/>
+      <!-- Handle connection -->
+      <line x1="-10" y1="5" x2="10" y2="5" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
